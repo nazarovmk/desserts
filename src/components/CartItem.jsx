@@ -13,7 +13,9 @@ function CartItem({ item }) {
           <p>${(item.price * item.amount).toFixed(2)}</p>
         </div>
       </div>
-      <CiCircleRemove
+      <img
+        src="./images/icon-remove-item.svg"
+        alt=""
         className="remove-btn"
         onClick={() => dispatch(removeFromCart(item.id))}
       />

@@ -21,8 +21,9 @@ function OrderConfirmed({ items, totalPrice, onClose }) {
                 />
                 <span>
                   <p>{item.name}</p>
-                  <p>
-                    {item.amount}x @${item.price.toFixed(2)}
+                  <p className="amount-price-wrap">
+                    <span>{item.amount}x</span>
+                    <span>@${item.price.toFixed(2)}</span>
                   </p>
                 </span>
               </div>
