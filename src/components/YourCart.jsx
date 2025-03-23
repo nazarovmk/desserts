@@ -31,7 +31,7 @@ function YourCart() {
             <div className="order-total">
               <h3>Order Total</h3>
               <h2 className="order-price">${totalPrice.toFixed(2)}</h2>
-            </div>
+            </div> 
             <div className="neutral">
               <img
                 src="./images/icon-carbon-neutral.svg"
